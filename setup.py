@@ -21,7 +21,7 @@ def clean(name):
 @clean('django_db_connection_pool')
 def setup():
     setuptools.setup(
-        name='django-db-connection-pool',
+        name='django-db-connection-pool-plus',
         license='MIT',
         version=__version__,
         description=__description__,
@@ -29,8 +29,8 @@ def setup():
         long_description_content_type='text/markdown',
         author=__author__,
         author_email=__author_email__,
-        url='https://github.com/altairbow/django-db-connection-pool',
-        download_url='https://pypi.python.org/pypi/django-db-connection-pool/',
+        url='https://github.com/HQ1363/django-db-connection-pool',
+        download_url='https://pypi.python.org/pypi/django-db-connection-pool-plus/',
         packages=setuptools.find_packages(),
         include_package_data=True,
         install_requires=[
